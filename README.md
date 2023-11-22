@@ -8,3 +8,4 @@ installation package for Jetson Nano
 
 torch1.6 and torchvision0.7.0
 torch1.8 and torchvision0.9.0
+https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
