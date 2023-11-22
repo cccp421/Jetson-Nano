@@ -1,5 +1,6 @@
 # jetpack4.6.1、python3.6、cuda10.2
 pyPro文件夹是用于Nano学习时，所使用的python文件
+包含NVIDIA官方提供的“Hello AI world” Demo用的跑deep learning的例程、Open CV的例程（haarcascade人脸检测等） 
 
 # Yolo v5-7.0
 installation package for Jetson Nano
