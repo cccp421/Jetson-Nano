@@ -6,5 +6,9 @@ https://github.com/dusty-nv/jetson-inference#training
 # Yolo v5-7.0
 installation package for Jetson Nano
 
-torch1.6 and torchvision0.7.0、torch1.8 and torchvision0.9.0
+安装环境torch1.10.0 and torchvision0.11.1
+安装的torch包一定要是英伟达jetson官网提供的_aarch66.whl安装包！！！torchvision对应torch版本的包下载就行
 https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
+其他包按照文件中提供的requirements.txt文件安装就行.
+
+--source 0使用摄像头，跑推理detect.py文件时，遇到OpenCV相关的错误，需安装opencv-contrib-python（一个opencv的拓展库），其版本要跟opencv-python的版本一致，安装过程很慢！！
