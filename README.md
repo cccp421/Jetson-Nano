@@ -5,7 +5,7 @@ pyPro文件夹是用于Nano学习时，所使用的python文件，包含NVIDIA�
 https://github.com/dusty-nv/jetson-inference#training
 
 
-# Yolo v5-7.0
+# 部署Yolo v5-7.0
 installation package for Jetson Nano
 
 建议先换个国内的镜像源
