@@ -11,7 +11,7 @@ installation package for Jetson Nano
 
 建议先换个国内的镜像源
 
-部署的是官方提供的v7版本
+yolov5部署的是官方提供的v7版本
  https://github.com/ultralytics/yolov5 
 
 安装环境torch1.10.0 and torchvision0.11.1
