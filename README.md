@@ -17,6 +17,8 @@ installation package for Jetson Nano
 安装环境torch1.10.0 and torchvision0.11.1
 安装的torch包一定要是英伟达jetson官网提供的_aarch66.whl安装包！！！
 
+提供一个torch历史版本下载的网址：https://download.pytorch.org/whl/torch_stable.html
+
 torchvision对应torch版本的包下载就行
 https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
 
