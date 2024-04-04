@@ -1,5 +1,5 @@
 # 一个jetson nano的学习笔记
-
+![05997baa47284889a0313a1da31b135.jpg](https://github.com/cccp421/Jetson-Nano/blob/main/05997baa47284889a0313a1da31b135.jpg)
 ## jetpack4.6.1、python3.6、cuda10.2
 pyPro文件夹是用于Nano学习时，所使用的python文件，包含NVIDIA官方提供的[“Hello AI world”](https://github.com/dusty-nv/jetson-inference#training)  
 Demo用的跑deep learning的例程、Open CV的例程（haarcascade人脸检测等）
