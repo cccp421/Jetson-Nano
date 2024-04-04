@@ -1,13 +1,13 @@
 # 一个jetson nano的学习笔记
 
-# jetpack4.6.1、python3.6、cuda10.2
-pyPro文件夹是用于Nano学习时，所使用的python文件，包含NVIDIA官方提供的“Hello AI world” Demo用的跑deep learning的例程、Open CV的例程（haarcascade人脸检测等） 
+## jetpack4.6.1、python3.6、cuda10.2
+pyPro文件夹是用于Nano学习时，所使用的python文件，包含NVIDIA官方提供的“Hello AI world” Demo用的跑deep learning的例程、Open CV的例程（haarcascade人脸检测等）   
 https://github.com/dusty-nv/jetson-inference#training
 
-新手教程是我跟着YouTube上@paulmcwhorter老爷子一步步练习的，教的很好，只有一个问题就是视频出的较早，jetson版本跟现在不一致，中途会出现很多因为版本而导致的问题，尤其是调用控制舵机模块库的时候，很麻烦，但也能解决
+新手教程是我跟着YouTube上`@paulmcwhorter`老爷子一步步练习的，教的很好，只有一个问题就是视频出的较早，jetson版本跟现在不一致，中途会出现很多因为版本而导致的问题，尤其是调用控制舵机模块库的时候，很麻烦，但也能解决
 
-# 部署Yolo v5-7.0
-installation package for Jetson Nano
+## 部署Yolo v5n-7.0
+### installation package for Jetson Nano
 
 建议先换个国内的镜像源
 
@@ -22,9 +22,9 @@ yolov5部署的是官方提供的v7版本
 torchvision对应torch版本的包下载就行
 https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
 
-其他包按照文件中提供的requirements.txt文件安装就行.
+其他包按照文件中提供的`requirements.txt`文件安装就行.
 
---source 0使用摄像头，跑推理detect.py文件时，遇到OpenCV相关的错误，需安装opencv-contrib-python（一个opencv的拓展库），其版本要跟opencv-python的版本一致，安装过程很慢！！
+`--source 0`使用摄像头，跑推理detect.py文件时，遇到OpenCV相关的错误，需`pip install opencv-contrib-python`（一个opencv的拓展库），其版本要跟opencv-python的版本一致，安装过程很慢！！
 
 # 使用TensorRT进行推理加速
 有两个方法：1.使用英伟达官方的tensorrt https://github.com/NVIDIA/TensorRT
