@@ -4,7 +4,9 @@
 pyPro文件夹是用于Nano学习时，所使用的python文件，包含NVIDIA官方提供的[“Hello AI world”](https://github.com/dusty-nv/jetson-inference#training)  
 Demo用的跑deep learning的例程、Open CV的例程（haarcascade人脸检测等）
 
-新手教程是我跟着YouTube上`@paulmcwhorter`老爷子一步步练习的，教的很好，只有一个问题就是视频出的较早，jetson版本跟现在不一致，中途会出现很多因为版本而导致的问题，尤其是调用控制舵机模块库的时候，很麻烦，但也能解决
+新手教程是我跟着YouTube上`@paulmcwhorter`老爷子一步步练习的，教的很好，只有一个问题就是视频出的较早，jetson版本跟现在不一致，中途会出现很多因为版本而导致的问题，尤其是调用控制舵机模块库的时候，很麻烦，但也能解决  
+
+我的学习记录可在我的[YouTube](https://youtu.be/034WBf1su6U)或者[Bilibili](https://www.bilibili.com/video/BV1dm411q7Lw/)上观看
 
 ## 部署Yolo v5n-7.0
 ### installation package for Jetson Nano
